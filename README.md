@@ -13,7 +13,6 @@ This project implements a **Transformer-based Language Model** designed to gener
 - [Training](#training)
 - [Deployment](#deployment)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 
