@@ -47,13 +47,14 @@ To run this project locally, follow these steps:
 3. Install the required dependencies:
     pip install -r requirements.txt
 
-Usage
+## Usage
 
 1.After installing the dependencies, you can start the app by running:
     streamlit run app.py
 2.This will launch the app in your browser where you can enter a text prompt, and the model will generate text based on that input.
 
-Model Architecture
+## Model Architecture
+
 The model uses a Transformer architecture with self-attention mechanisms, making it efficient at understanding and generating contextually relevant text. The model is based on the following layers:
 
 Embedding Layer: Converts input tokens into dense vectors.
@@ -62,12 +63,14 @@ Feed-forward Neural Networks: For processing the attention outputs.
 Output Layer: Generates the predicted next word in the sequence.
 For a deeper understanding, check out the original paper on [Attention is All You Need](#https://arxiv.org/pdf/1706.03762).
 
-Training
+## Training
+
 The model is trained on a large corpus of text. Training details and configurations can be found in the train.py file. The model is saved after training as bigram_language_model.pth and bigram_language_model_complete.pth.
 
 You can modify the training script to use different datasets or tweak the hyperparameters for fine-tuning.
 
-Contributing
+## Contributing
+
 Contributions are welcome! If you'd like to contribute to this project, please fork the repository, make your changes, and submit a pull request.
 
 *Ensure your code is well-documented and follows Python's PEP-8 style guide.
