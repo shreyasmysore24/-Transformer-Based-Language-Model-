@@ -70,6 +70,11 @@ The model is trained on a large corpus of text. Training details and configurati
 
 You can modify the training script to use different datasets or tweak the hyperparameters for fine-tuning.
 
+## Deployment
+
+You can interact with the deployed version of this model through the following link:
+Transformer-Based Language Model(https://gpt-text-generator.streamlit.app/)
+
 ## Contributing
 
 Contributions are welcome! If you'd like to contribute to this project, please fork the repository, make your changes, and submit a pull request.
