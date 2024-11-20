@@ -3,7 +3,3 @@ streamlit
 numpy
 pandas
 matplotlib
-mmap
-random
-pickle
-argparse
